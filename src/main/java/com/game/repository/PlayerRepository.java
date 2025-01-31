@@ -15,13 +15,13 @@ import java.util.stream.Collectors;
 @Repository
 public class PlayerRepository {
     private static final List<Player> storage = new CopyOnWriteArrayList<Player>() {{
-        add(new Player(1L, "Ниус", "Приходящий Без Шума", Race.HOBBIT, Profession.ROGUE, new Date(1244497480000L), false, 33));
-        add(new Player(2L, "Никрашш", "НайтВульф", Race.ORC, Profession.WARRIOR, new Date(1152424240000L), false, 58));
-        add(new Player(4L, "Эззэссэль", "шипящая", Race.DWARF, Profession.CLERIC, new Date(1243201400000L), true, 3));
-        add(new Player(5L, "Бэлан", "Тсе Раа", Race.DWARF, Profession.ROGUE, new Date(1241378440000L), true, 29));
-        add(new Player(6L, "Элеонора", "Бабушка", Race.HUMAN, Profession.SORCERER, new Date(1214155000000L), true, 35));
-        add(new Player(7L, "Эман", "Ухастый Летун", Race.ELF, Profession.SORCERER, new Date(1214772360000L), false, 56));
-        add(new Player(8L, "Талан", "Рожденный в Бронксе", Race.GIANT, Profession.ROGUE, new Date(1217853300000L), false, 36));
+        add(new Player(1L, "Nius", "First of the firsts", Race.HOBBIT, Profession.ROGUE, new Date(1244497480000L), false, 33));
+        add(new Player(2L, "NoCrush", "NightWolf", Race.ORC, Profession.WARRIOR, new Date(1152424240000L), false, 58));
+        add(new Player(4L, "Ezzessel", "Crown", Race.DWARF, Profession.CLERIC, new Date(1243201400000L), true, 3));
+        add(new Player(5L, "Belan", "Тсе Раа", Race.DWARF, Profession.ROGUE, new Date(1241378440000L), true, 29));
+        add(new Player(6L, "Eleonor", "Granny", Race.HUMAN, Profession.SORCERER, new Date(1214155000000L), true, 35));
+        add(new Player(7L, "Eman", "Eary Flighter", Race.ELF, Profession.SORCERER, new Date(1214772360000L), false, 56));
+        add(new Player(8L, "Talan", "Bron in bronks", Race.GIANT, Profession.ROGUE, new Date(1217853300000L), false, 36));
         add(new Player(9L, "Арилан", "Благотворитель", Race.ELF, Profession.SORCERER, new Date(1216022000000L), false, 34));
         add(new Player(10L, "Деракт", "Эльфёнок Красное Ухо", Race.ELF, Profession.ROGUE, new Date(1215043720000L), false, 55));
         add(new Player(12L, "Архилл", "Смертоносный", Race.GIANT, Profession.PALADIN, new Date(1243141000000L), false, 38));
